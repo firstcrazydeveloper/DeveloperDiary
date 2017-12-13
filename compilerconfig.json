@@ -1,0 +1,26 @@
+﻿[
+  {
+    "outputFile": "src/app/common/components/login/login.component.css",
+    "inputFile": "src/app/common/components/login/login.component.less"
+  },
+  {
+    "outputFile": "src/app/components/dashboard/dashboard.component.css",
+    "inputFile": "src/app/components/dashboard/dashboard.component.less"
+  },
+  {
+    "outputFile": "src/app/common/components/login/login.components.css",
+    "inputFile": "src/app/common/components/login/login.components.less"
+  },
+  {
+    "outputFile": "src/vendors/sbadmin/sbadmin.css",
+    "inputFile": "src/vendors/sbadmin/sbadmin.less"
+  },
+  {
+    "outputFile": "src/app/components/login/login.component.css",
+    "inputFile": "src/app/components/login/login.component.less"
+  },
+  {
+    "outputFile": "src/assets/styles/busySpinner.css",
+    "inputFile": "src/assets/styles/busySpinner.less"
+  }
+]

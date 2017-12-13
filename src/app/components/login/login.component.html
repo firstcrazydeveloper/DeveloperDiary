@@ -1,0 +1,23 @@
+﻿<div class="login-page" [ngBusy]="{busy: busy, message: 'Loading...'}">
+    <div class="form" >
+        <form class="login-form" autocomplete="off" #f="ngForm" (ngSubmit)="Login()" >
+            <div class="form-header default-color">
+                <h3><i class="fa fa-lock"></i> Login To Dev Profile</h3>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                <input type="text" class="form-control" name="userId" [(ngModel)]="id" required placeholder="User ID">
+            </div>
+
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                <input type="password" class="form-control" name="password" [(ngModel)]="password" required placeholder="Password">
+            </div>
+
+            <div class="input-group">
+                <button type="submit" [disabled]="!f.valid">login</button>
+            </div>
+            <p class="message">Not registered? <a href="#">Create your profile</a></p>
+        </form>
+    </div>
+</div>
